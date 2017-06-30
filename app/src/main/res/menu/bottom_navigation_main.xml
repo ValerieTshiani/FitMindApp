@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id = "@+id/action_home"
+        android:enabled = "true"
+        android:icon = "@drawable/ic_home"
+        android:title = "home"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id = "@+id/action_lightbulb"
+        android:enabled = "true"
+        android:icon = "@drawable/ic_action_lightbulb"
+        android:title = "Lightbulb"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id = "@+id/action_trophy"
+        android:enabled = "true"
+        android:icon = "@drawable/ic_temp"
+        android:title = "tropy"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id = "@+id/action_gift"
+        android:enabled = "true"
+        android:icon = "@drawable/ic_gift"
+        android:title = "gift"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id = "@+id/action_profile"
+        android:enabled = "true"
+        android:icon = "@drawable/ic_profile"
+        android:title = "profile"
+        app:showAsAction="ifRoom"/>
+
+</menu>
