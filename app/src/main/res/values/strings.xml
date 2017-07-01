@@ -3,4 +3,18 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="action_maths">Maths</string>
+    <string name="action_english">English</string>
+    <string name="action_bio">Bio</string>
+    <string name="action_french">French</string>
+
+
+
+    <string name="backdrop_title">Reporting</string>
+    <string name="backdrop_subtitle">Your performance so far</string>
+
+
+
 </resources>
