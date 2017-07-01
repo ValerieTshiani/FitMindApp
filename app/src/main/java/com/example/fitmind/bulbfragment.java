@@ -25,7 +25,7 @@ public class bulbfragment extends Fragment {
         bulbfragment fragment = new bulbfragment();
         return fragment;
     }
-//yoh
+//yoh,,
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
