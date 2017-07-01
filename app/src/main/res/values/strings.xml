@@ -3,4 +3,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_address1">Username: ricky@rondies.ac.za</string>
+    <string name="email_address2">Username: ricky1@rondies.ac.za</string>
+    <string name="gender_f">Gender: Female</string>
+    <string name="gender_m">Gender: Male</string>
 </resources>
