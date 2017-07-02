@@ -82,13 +82,23 @@ public class bulbfragment extends Fragment {
             }
         })); */
 
-        recycleView.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getActivity(), "Click pressed",Toast.LENGTH_SHORT).show();
-            }
+//        recycleView.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(getActivity(), "Click pressed",Toast.LENGTH_SHORT).show();
+//            }
+//
+//        });
 
-        });
+        recycleView.addOnItemTouchListener(
+                new RecyclerItemClickListener(getActivity(), new RecyclerItemClickListener.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(View v, int position) {
+
+                        Toast.makeText(getActivity(), "" + position, Toast.LENGTH_SHORT).show();
+                    }
+                })
+        );
 
         return view;
 

@@ -10,11 +10,18 @@
     <string name="action_bio">Bio</string>
     <string name="action_french">French</string>
 
+    <string name="gender1">Gender: Female</string>
+    <string name="gender2">Gender: Male</string>
 
+    <string name="name1">Brian Bandit</string>
+    <string name="name2">Christine Stuart-Watson</string>
 
-    <string name="backdrop_title">Reporting</string>
+    <string name="email1">christine@bergvliet.ac.za</string>
+    <string name="email2">honey@bergvliet.ac.zan</string>
+
+    <string name="copyright">©FitMind 2017</string>
+
+     <string name="backdrop_title">Reporting</string>
     <string name="backdrop_subtitle">Your performance so far</string>
-
-
 
 </resources>
