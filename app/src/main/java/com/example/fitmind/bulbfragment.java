@@ -67,14 +67,14 @@ public class bulbfragment extends Fragment {
 
         //intializing an arraylist called subjectList
         subjectList = new ArrayList<>();
-        subjectList.add(new subject("Bio","Birds and the bees",R.drawable.biology));
-        subjectList.add(new subject("Maths","Numbers and Equations",R.drawable.maths));
-        subjectList.add(new subject("English","Literature and grammar",R.drawable.english));
-        subjectList.add(new subject("Chemistry","equations and organic chemistry",R.drawable.chemistry));
-        subjectList.add(new subject("History","Learning from past events",R.drawable.history));
-        subjectList.add(new subject("Business Studies","The business world",R.drawable.business_studies));
-        subjectList.add(new subject("Geography","People and their environments",R.drawable.geography));
-        subjectList.add(new subject("Accounting","Fianances transactions",R.drawable.accounting));
+        subjectList.add(new subject("Bio","Birds and the bees",R.drawable.ic_bio));
+        subjectList.add(new subject("Maths","Numbers and Equations",R.drawable.ic_bio));
+        subjectList.add(new subject("English","Literature and grammar",R.drawable.ic_bio));
+        subjectList.add(new subject("Chemistry","equations and organic chemistry",R.drawable.ic_bio));
+        subjectList.add(new subject("History","Learning from past events",R.drawable.ic_bio));
+        subjectList.add(new subject("Business Studies","The business world",R.drawable.ic_bio));
+        subjectList.add(new subject("Geography","People and their environments",R.drawable.ic_bio));
+        subjectList.add(new subject("Accounting","Fianances transactions",R.drawable.ic_bio));
 
         adapter = new subjectAdapter(subjectList);
         recycleView.setAdapter(adapter);
@@ -100,8 +100,20 @@ public class bulbfragment extends Fragment {
                     @Override
                     public void onItemClick(View v, int position) {
 
-                        Toast.makeText(getActivity(), "" + position, Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getActivity(), BioStatsActivity.class);
+                       // Toast.makeText(getActivity(), "" + position, Toast.LENGTH_SHORT).show();
+
+                        switch (position)
+                        {
+                            case 0:
+                                Intent intent = new Intent(getActivity(), BioStatsActivity.class);
+                                startActivity(intent);
+
+                        }
+
+
+
+                       // Intent intent = new Intent(getActivity(), BioStatsActivity.class);
+                        //startActivity(intent);
                     }
                 })
         );
