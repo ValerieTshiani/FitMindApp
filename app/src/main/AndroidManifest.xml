@@ -20,7 +20,8 @@
         <activity
             android:name=".BioStatsActivity"
             android:label="@string/title_activity_bio_stats"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Congratulation_screen"></activity>
     </application>
 
 </manifest>
