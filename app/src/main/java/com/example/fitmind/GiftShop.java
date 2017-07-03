@@ -21,7 +21,7 @@ public class GiftShop extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gift_shop);
 
-        recyclerView = (RecyclerView) findViewById(R.id.goodie_recycler_view);
+        recyclerView = (RecyclerView) findViewById(R.id.gift_shop_recycler_view);
         recyclerView.setHasFixedSize(true);
 
         layoutManager = new LinearLayoutManager(getApplicationContext());
@@ -29,9 +29,9 @@ public class GiftShop extends AppCompatActivity {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
 
         data = new ArrayList<>();
-        data.add(new Goodie("free smoothie", "valid", 100));
-        data.add(new Goodie("free tollie", "valid", 100));
-        data.add(new Goodie("free toet", "redeemed", 100));
+        data.add(new Goodie("free smoothie", "valid", 100, R.drawable.kauaimin));
+        data.add(new Goodie("free tollie", "valid", 100, R.drawable.sterkinekormin));
+        data.add(new Goodie("free toet", "redeemed", 100, R.drawable.kauaimin));
 
         adapter = new GoodieAdapter(data);
         recyclerView.setAdapter(adapter);

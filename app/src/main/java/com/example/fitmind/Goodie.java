@@ -12,6 +12,13 @@ public class Goodie {
         this.pointsNeeded = pointsNeeded;
     }
 
+    public Goodie(String title, String description, int pointsNeeded, int goodieId ){
+        this.category = title;
+        this.description = description;
+        this.pointsNeeded = pointsNeeded;
+        this.goodieId = goodieId;
+    }
+
     public int getGoodieId() {
         return goodieId;
     }

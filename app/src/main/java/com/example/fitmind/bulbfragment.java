@@ -120,8 +120,6 @@ public class bulbfragment extends Fragment {
 
         return view;
 
-
-
     }
 
 
