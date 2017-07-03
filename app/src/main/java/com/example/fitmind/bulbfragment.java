@@ -1,6 +1,7 @@
 package com.example.fitmind;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -31,7 +32,7 @@ public class bulbfragment extends Fragment {
 
     private ArrayList<subject> subjectList;
 
-    private TextView mTextMessage;
+
 
     //private ArrayList<subject> subjectList;
     private subjectAdapter subjectAdapter;
@@ -66,10 +67,14 @@ public class bulbfragment extends Fragment {
 
         //intializing an arraylist called subjectList
         subjectList = new ArrayList<>();
-        subjectList.add(new subject("Bio","Birds and the bees",R.drawable.ic_bio));
-        subjectList.add(new subject("Maths","Numbers",R.drawable.ic_maths));
-        subjectList.add(new subject("English","Books",R.drawable.ic_book));
-        subjectList.add(new subject("French","OUI OuI",R.drawable.ic_languages));
+        subjectList.add(new subject("Bio","Birds and the bees",R.drawable.biology));
+        subjectList.add(new subject("Maths","Numbers and Equations",R.drawable.maths));
+        subjectList.add(new subject("English","Literature and grammar",R.drawable.english));
+        subjectList.add(new subject("Chemistry","equations and organic chemistry",R.drawable.chemistry));
+        subjectList.add(new subject("History","Learning from past events",R.drawable.history));
+        subjectList.add(new subject("Business Studies","The business world",R.drawable.business_studies));
+        subjectList.add(new subject("Geography","People and their environments",R.drawable.geography));
+        subjectList.add(new subject("Accounting","Fianances transactions",R.drawable.accounting));
 
         adapter = new subjectAdapter(subjectList);
         recycleView.setAdapter(adapter);
@@ -96,6 +101,7 @@ public class bulbfragment extends Fragment {
                     public void onItemClick(View v, int position) {
 
                         Toast.makeText(getActivity(), "" + position, Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(getActivity(), BioStatsActivity.class);
                     }
                 })
         );

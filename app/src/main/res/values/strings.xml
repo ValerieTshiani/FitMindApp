@@ -21,7 +21,8 @@
 
     <string name="copyright">©FitMind 2017</string>
 
-     <string name="backdrop_title">Reporting</string>
+    <string name="backdrop_title">Reporting</string>
     <string name="backdrop_subtitle">Your performance so far</string>
+    <string name="title_activity_bio_stats">BioStatsActivity</string>
 
 </resources>
