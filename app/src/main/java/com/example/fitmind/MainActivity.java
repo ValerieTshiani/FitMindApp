@@ -1,14 +1,18 @@
 package com.example.fitmind;
 
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 import android.support.annotation.NonNull;
 import android.view.MenuItem;
+
+//import static android.icu.text.Normalizer.NO;
 
 public class MainActivity extends AppCompatActivity  {
 
@@ -29,6 +33,7 @@ public class MainActivity extends AppCompatActivity  {
                     case R.id.action_home :
                         //Toast.makeText(MainActivity.this, "Action Home Clicked", Toast.LENGTH_SHORT).show();
                         selectedFragment = homefragment.newInstance();
+                        
                         break;
                     case R.id.action_lightbulb :
                         // Toast.makeText(MainActivity.this, "Action LightBulb Clicked", Toast.LENGTH_SHORT).show();

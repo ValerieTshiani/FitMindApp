@@ -36,7 +36,7 @@ public class subjectAdapter extends RecyclerView.Adapter<subjectAdapter.MyViewHo
             super(v);
             this.mCardView = (CardView) v.findViewById(R.id.card_view);
             this.subject_name = (TextView) v.findViewById(R.id.subject_name);
-            this.subjectInfo = (TextView) v.findViewById(R.id.subjectInfo);
+            //this.subjectInfo = (TextView) v.findViewById(R.id.subjectInfo);
 
             //this.year = (TextView) v.findViewById(R.id.year);
             this.sujbect_cover = (ImageView) v.findViewById(R.id.sujbect_cover);
@@ -74,7 +74,7 @@ public class subjectAdapter extends RecyclerView.Adapter<subjectAdapter.MyViewHo
 
         subject subject = subjectList.get(position);
         holder.subject_name.setText(subject.getSubjectName());
-        holder.subjectInfo.setText(subject.getSubject_info());
+        //holder.subjectInfo.setText(subject.getSubject_info());
        // holder.year.setText(subject.getYear());
         holder.sujbect_cover.setImageResource(subject.getPic());
         //holder.year.setText("2017");

@@ -51,10 +51,12 @@ public class BioStatsActivity extends AppCompatActivity {
 
         //intializing an arraylist called subjectList
         reportList = new ArrayList<>();
-        reportList.add(new report("Leader Board Position",R.drawable.biology));
-        reportList.add(new report("Quizzies Passed",R.drawable.biology));
-        reportList.add(new report("Strengths",R.drawable.biology));
-        reportList.add(new report("Weaknesses",R.drawable.biology));
+        reportList.add(new report("# of quizzes taken",R.drawable.ten));
+        reportList.add(new report("Quizzies Passed",R.drawable.six));
+        //reportList.add(new report("Strengths",R.drawable.weakness));
+       // reportList.add(new report("Weaknesses",R.drawable.strength));
+
+
 
         //reportAdapter = new reportAdapter(reportList);
         reportAdapter = new reportAdapter(reportList);

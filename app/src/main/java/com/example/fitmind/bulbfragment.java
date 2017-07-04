@@ -67,17 +67,18 @@ public class bulbfragment extends Fragment {
 
         //intializing an arraylist called subjectList
         subjectList = new ArrayList<>();
-        subjectList.add(new subject("Bio","Birds and the bees",R.drawable.ic_bio));
-        subjectList.add(new subject("Maths","Numbers and Equations",R.drawable.ic_bio));
-        subjectList.add(new subject("English","Literature and grammar",R.drawable.ic_bio));
-        subjectList.add(new subject("Chemistry","equations and organic chemistry",R.drawable.ic_bio));
-        subjectList.add(new subject("History","Learning from past events",R.drawable.ic_bio));
-        subjectList.add(new subject("Business Studies","The business world",R.drawable.ic_bio));
-        subjectList.add(new subject("Geography","People and their environments",R.drawable.ic_bio));
-        subjectList.add(new subject("Accounting","Fianances transactions",R.drawable.ic_bio));
+        subjectList.add(new subject("Maths",R.drawable.calculator));
+        subjectList.add(new subject("Bio",R.drawable.plant));
+        subjectList.add(new subject("Geography",R.drawable.maplocation));
+        subjectList.add(new subject("Physics",R.drawable.atoms));
+        subjectList.add(new subject("Chemistry",R.drawable.chemistry));
+        subjectList.add(new subject("History",R.drawable.pyramid));
+
+
 
         adapter = new subjectAdapter(subjectList);
         recycleView.setAdapter(adapter);
+
 
 
       /*  mRecyclerView.addOnItemTouchListener(new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {

@@ -7,13 +7,13 @@ package com.example.fitmind;
 public class subject {
  // inights into the kids
     public String subjectName;
-    public String subject_info;
+   // public String subject_info;
     public int pic;
     String year;
 
-    public subject(String subjectName,String subject_info, int pic) {
+    public subject(String subjectName, int pic) {
         this.subjectName= subjectName;
-        this.subject_info = subject_info;
+        //this.subject_info = subject_info;
         this.pic = pic;
 
     }
@@ -27,12 +27,12 @@ public class subject {
     }
 
 
-    public String getSubject_info()
-    {
-        return  subject_info;
-    }
+    //public String getSubject_info()
+    //{
+        //return  subject_info;
+    //}
 
-    public void setSubject_info(String subject_info) { this.subject_info = subject_info; }
+    //public void setSubject_info(String subject_info) { this.subject_info = subject_info; }
 
 
 
