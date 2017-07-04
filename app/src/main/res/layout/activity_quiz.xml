@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="Quiz 1"
+                        android:textAlignment="center"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_Score"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd" />
+
+                    <Space
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/textView_Question1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="1.State the next three terms in each of the following sequences: 45;29;13;-3"
+                        android:textAlignment="center" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_1.1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="-108;-21;-87"
+                        android:textColorLink="#009900" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_1.2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="-19;-35;-51"
+                        android:textColorLink="#009900" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_1.3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="-19;47,-9080"
+                        android:textColorLink="#009900" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_1.4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Potatoe"
+                        android:textColorLink="#009900" />
+                </RadioGroup>
+
+                <Space
+                    android:layout_width="1dp"
+                    android:layout_height="30dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView_Question2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="2. Determine a formula for the nth term of the pattern: 45; 29; 13; -3; …"
+                        android:textAlignment="center" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_2.1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="(2n^2)-3n-5"
+                        android:textColorLink="#009900" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_2.2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="(2n^2)-3n-6"
+                        android:textColorLink="#009900" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_2.3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="(3n^2)-3n-5"
+                        android:textColorLink="#009900" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_2.4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Potatoe"
+                        android:textColorLink="#009900" />
+                </RadioGroup>
+
+                <Space
+                    android:layout_width="1dp"
+                    android:layout_height="30dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView_Question3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="3. Determine the common difference (d) and the general term for the following sequence:10; 7; 4;1;…"
+                        android:textAlignment="center" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_3.1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="3"
+                        android:textColorLink="#009900" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_3.2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="7"
+                        android:textColorLink="#009900" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_3.3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="-3"
+                        android:textColorLink="#009900" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton_3.4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Potatoe"
+                        android:textColorLink="#009900" />
+                </RadioGroup>
+
+                <Space
+                    android:layout_width="1dp"
+                    android:layout_height="30dp" />
+
+                <Button
+                    android:id="@+id/button_Submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#009900"
+                    android:text="Submit"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
