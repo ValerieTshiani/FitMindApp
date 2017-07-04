@@ -24,25 +24,10 @@
        android:layout_centerHorizontal="true"
        android:foreground="?android:attr/selectableItemBackground"
        android:scaleType="centerCrop"
-       android:src="@drawable/strength"
+       android:src="@drawable/reporting"
        android:background="#000000"
        android:padding="1dp"
        android:paddingBottom="15dp"
        />
-   <ImageView
-       android:id="@+id/weakness"
-       android:layout_width="match_parent"
-       android:layout_height="150dp"
-       android:layout_centerHorizontal="true"
-       android:foreground="?android:attr/selectableItemBackground"
-       android:scaleType="centerCrop"
-       android:src="@drawable/weakness"
-       android:background="#000000"
-       android:padding="1dp"
-       android:paddingTop="10dp"
-       android:layout_above="@id/strength"
-
-       />
-
 
 </RelativeLayout>
