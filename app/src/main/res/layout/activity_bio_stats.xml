@@ -25,9 +25,9 @@
        android:foreground="?android:attr/selectableItemBackground"
        android:scaleType="centerCrop"
        android:src="@drawable/reporting"
-       android:background="#000000"
-       android:padding="1dp"
-       android:paddingBottom="15dp"
+       android:background="#3F51B5"
+       android:padding="5dp"
+       android:width="5dp"
        />
 
 </RelativeLayout>
